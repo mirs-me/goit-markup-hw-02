@@ -1,3 +1,4 @@
-# goit-markup-hw-01
-First Homework assignment
-HTML Grid for Intro page
+# goit-markup-hw-02
+Second Homework assignment
+HTML Grid for Portfolio page
+CSS for both pages
