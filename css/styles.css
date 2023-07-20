@@ -9,10 +9,11 @@
     --cloud: #F4F4FD;
 }
 body {font-family: 'Roboto', sans-serif;
-        color: var(--navyblue, #2E2F42);
+        color: var(--navyblue);
     
 }
-
+.navigation-bar {border-bottom: 1px solid var(--cornflower);
+                background: var(--white);}
 .logo {font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -22,8 +23,9 @@ body {font-family: 'Roboto', sans-serif;
         line-height: 1.17;
     }
 
-.logo-blue-web {color:var(--iris, #4D5AE5);
+.logo-blue-web {color:var(--iris);
     }
+.logo:hover, .logo:focus {color: var(--ocean);}
 
 .navigation {list-style: none;
             font-weight: 500;
@@ -32,42 +34,47 @@ body {font-family: 'Roboto', sans-serif;
 }
 
 .navigation-item{ text-decoration: none;
-                    color: inherit}
+                    color: inherit;}
+.navigation-item:hover, .navigation-item:focus {color: var(--iris);}
 
 .contacts {list-style: none;}
 
-.contacts-item{color: var(--slate, #434455);
+.contacts-item{color: var(--slate);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     }
 
-.contacts-item:hover, .contacts-item:focus {color:var(--iris, #4D5AE5);}
+.contacts-item:hover, .contacts-item:focus {color:var(--iris);}
 
-.hero-section {background-color: var(--navyblue, #2E2F42);
-            color: var(--white, #FFF);
+.hero-section {background-color: var(--navyblue);
+            color: var(--white);
             font-size: 56px;
+            font-weight: 700;
             line-height: 1.07;
         }
 
-.order-button {background-color:var(--iris, #4D5AE5);
+.order-button {background-color:var(--iris);
                 font-family: 'Roboto', sans-serif;
-                color:var(--white, #FFF);
+                color:var(--white);
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;}
 
-.order-button:hover, .order-button:focus {cursor: pointer;}
+.order-button:hover, .order-button:focus {cursor: pointer;
+                                            color: var(--iris);
+                                            background-color: var(--cloud);}
 
 .values-list {list-style: none;
                 font-size: 20px;
              line-height: 1.2;}
 .values-description {font-size: 16px;
-                    color:var(--slate, #434455);
+                    color:var(--slate);
                     line-height: 1.5;}
 .our-work-title{font-size: 36px;
                 line-height: 1.1;}
 .our-work-list{list-style: none; }
+.team{ background: var(--cloud);}
 .team-title {font-size: 36px;
             line-height: 1.1;
             }
@@ -75,30 +82,30 @@ body {font-family: 'Roboto', sans-serif;
             font-size: 20px;
             line-height: 1.2;}
 .team-member-position{font-size: 16px;
-                    color:var(--slate, #434455);
+                    color:var(--slate);
                     line-height: 1.5;}
-.bottom-page {color: var(--cloud, #F4F4FD);
-                background-color: var(--navyblue, #2E2F42);}                    
+.bottom-page {color: var(--cloud);
+                background-color: var(--navyblue);}                    
 .footer-description {font-size:  16px;
                     line-height: 1.5;
                     }
 .filter-list{list-style: none;}
 .filter-button{font-family: 'Roboto', sans-serif;
-                background-color: var(--cloud, #F4F4FD);
-                border: 1px solid var(--cornflower, #E7E9FC);
-                color:var(--iris, #4D5AE5);
+                background-color: var(--cloud);
+                border: 1px solid var(--cornflower);
+                color:var(--iris);
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 1.5;
             }
 .filter-button:hover, 
 .filter-button:focus {  cursor: pointer;
-                        background-color:var(--ocean, #404BBF);
-                        color:var(--white, #FFF);}
+                        background-color:var(--ocean);
+                        color:var(--white);}
 .projects-list{list-style: none;
                 font-size: 20px;
                 line-height: 1.2;}
 .project-type{ font: size 16px;
-                color: var(--slate, #434455);
+                color: var(--slate);
                 line-height: 1.5;}
             
