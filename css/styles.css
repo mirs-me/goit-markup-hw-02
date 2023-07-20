@@ -1,0 +1,78 @@
+body {font-family: 'Roboto', sans-serif;
+        color: #2E2F42;
+    
+}
+
+.logo {font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: inherit
+    }
+
+.logo-blue-web {color: #4D5AE5;
+    }
+
+.navigation {list-style: none;
+            font-weight: 500;
+            font-size: 16px;
+}
+
+.navigation-item{ text-decoration: none;
+                    color: inherit}
+
+.contacts {list-style: none;}
+
+.contacts-item{color: #434455;
+    text-decoration: none;
+    font-size: 16px;}
+
+.contacts-item:hover, .contacts-item:focus {color:#4D5AE5;}
+
+.hero-section {background-color: #2E2F42;
+            color: #ffffff;
+            font-size: 56px;
+        }
+
+.order-button {background-color: #4D5AE5;
+                font-family: 'Roboto', sans-serif;
+                color:#ffffff;
+                font-weight: 500;
+                font-size: 16px;}
+
+.order-button:hover, .order-button:focus {cursor: pointer;}
+
+.values-list {list-style: none;
+                font-size: 20px;}
+.values-description {font-size: 16px;
+                    color:#434455}
+.our-work-title{font-size: 36px;}
+.our-work-list{list-style: none;
+                font-size: 36px;
+            }
+.team-title {font-size: 36px;
+            }
+.team-list{ list-style: none;
+            font-size: 20px;}
+.team-member-position{font-size: 16px;
+                    color:#434455}
+.bottom-page {color: #F4F4FD;
+                background-color: #2E2F42;}                    
+.footer-description {font-size:  16px;
+                    }
+.filter-list{list-style: none;}
+.filter-button{font-family: 'Roboto', sans-serif;
+                background-color: #F4F4FD;
+                color:#4D5AE5;
+                font-size: 16px;
+                font-weight: 500;
+            }
+.filter-button:hover, 
+.filter-button:focus {  cursor: pointer;
+                        background-color: #404BBF;
+                        color:#fff;}
+.projects-list{list-style: none;
+                font-size: 20px;}
+.project-type{ font: size 16px;
+                color: #434455;}
+            
