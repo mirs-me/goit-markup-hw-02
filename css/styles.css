@@ -98,10 +98,12 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.72px;
 }
 
-.team-list { list-style: none;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.4px;}
+.team-list { list-style: none;}
+
+.team-member-name{color: var(--navyblue);
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.4px;}
 
 .team-member-position {font-size: 16px;
                     color:var(--slate);
